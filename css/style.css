@@ -1,0 +1,39 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+#titleBar
+{
+    width:100%;
+    height:max(30vh,300px);
+    text-align: center;
+    font-size: min(6vh,60px);
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#container{
+    width:80vw;
+    margin:auto;
+    text-align: center;
+}
+
+#container img
+{
+    max-width:100%;
+    padding-top:2rem;
+}
+
+figcaption
+{
+    text-align: center;
+    font-size:2rem;
+    padding:1rem;
+    font-weight: 700;
+}
